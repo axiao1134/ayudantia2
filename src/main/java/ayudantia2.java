@@ -125,5 +125,5 @@ public class ayudantia2 {
         return sumaAlturas / alturas.length;
     }
 }
-
+//progrma listo
 
