@@ -61,10 +61,10 @@ public class ayudantia2 {
             System.out.println("Ingresa el peso en kg: ");
             peso = scanner.nextDouble();
             if (peso <= 0 || peso > 343) {
-                System.out.println("Peso ingresado no válido");
+                System.out.println("Peso ingresado no válido,for favor, reinicie el programa.");
             }
         } catch (InputMismatchException e) {
-            System.out.println("Error: Debes ingresar un valor decimal válido.");
+            System.out.println("Error: Debes ingresar un valor decimal válido, for favor, reinicie el programa.");
         } finally {
             // Consume la nueva línea pendiente
             scanner.nextLine();
@@ -81,10 +81,10 @@ public class ayudantia2 {
             System.out.println("Ingresa la altura en metros: ");
             altura = scanner.nextDouble();
             if (altura <= 0 || altura > 3) {
-                System.out.println("Altura ingresada no válida");
+                System.out.println("Altura ingresada no válida,for favor, reinicie el programa.");
             }
         } catch (InputMismatchException e) {
-            System.out.println("Error: Debes ingresar un valor decimal válido.");
+            System.out.println("Error: Debes ingresar un valor decimal válido, for favor, reinicie el programa.");
         } finally {
             // Consume la nueva línea pendiente
             scanner.nextLine();
